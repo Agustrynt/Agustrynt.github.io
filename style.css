@@ -13,9 +13,9 @@
     display: flex;
     background-color: #ea9658;
     justify-content: space-around;
-  /*   padding: 20px 0; */
     color: #074456;
     height: 50px;
+    width: auto;
     align-items: center; 
   }
   nav ul{
@@ -100,8 +100,9 @@
       display: flex;
     }
     nav ul{
-      position: absolute;
+      position: fixed;
       right:0;
+      left: 0;
       top:0;
       width: 80%;
       height: 100vh;
