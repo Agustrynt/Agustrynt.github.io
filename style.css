@@ -4,7 +4,7 @@
   }
   body{
     font-family: sans-serif;
-    overflow-x:hidden;
+    overflow-x: hidden;
     background-color: #074456;
   }
   
@@ -33,7 +33,11 @@
   nav ul li a{
     color: #074456x;
     text-decoration: none;
-    text-
+    font-size:0.8em;
+  }
+
+  nav ul li a:hover{
+    color: #074456;
   }
   
   /* humberger menu */
@@ -98,8 +102,8 @@
     nav ul{
       position: absolute;
       right:0;
-      padding-top:10px;
       top:0;
+      width: 80%;
       height: 100vh;
       justify-content: space-evenly;
       z-index:-1;
@@ -108,9 +112,11 @@
       background-color: #b0aa86;
       transform:translateX(100%);
       transition: all 1s;
+      opacity: 0;
     }
     
     nav ul.slide{
       transform:translateX(0);
+      opacity: 1;
     }
   }
